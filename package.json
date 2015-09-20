@@ -1,0 +1,13 @@
+{
+  "title": "logographic-simulator",
+  "name": "logographicsimulator",
+  "version": "0.0.1",
+  "description": "An addon that simulates logographic alphabets by iterating over letters in words.",
+  "main": "index.js",
+  "author": "Erick Eduardo Ochoa Lopez",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT"
+}
