@@ -1,51 +1,10 @@
 <!doctype html>
 <html>
 <head>
-  <style>
-  .lg0 {
-    background-color: white;
-    width: 2ch;
-    height: 1em;
-  }
-  </style>
-  <script>
-    function animate() {
-      var elements = document.getElementsByClassName('lg');
-      for (var i = 0; i < elements.length; i++) {
-        var element = elements[i];
-        var zIndex = parseInt(element.style.zIndex) + 2;
-        element.style.zIndex = zIndex.toString();
-        if (zIndex > 1) {
-          var parent = element.parentElement.className;
-          var resetTo = "-" + parent.substring(2);
-          element.style.zIndex = resetTo;
-        }
-      }
-    }
-
-    window.setInterval(animate, 200);
-  </script>
 </head>
 <body>
   <p>
-    <span class='lg9' style='display: inline-block; width:2ch;'>
-    <span class='lg0' style='z-index: 0; position: absolute;'> </span>
-    <span class='lg' style='z-index: -1; position: absolute;'>H</span>
-    <span class='lg' style='z-index: -3; position: absolute;'>e</span>
-    <span class='lg' style='z-index: -5; position: absolute;'>l</span>
-    <span class='lg' style='z-index: -7; position: absolute;'>l</span>
-    <span class='lg' style='z-index: -9; position: absolute;'>o</span>
-    </span>
-    <span class='lg9' style='display: inline-block; width:2ch;'>
-
-    <span class='lg0' style='z-index: 0; position: absolute;'> </span>
-    <span class='lg' style='z-index: -1; position: absolute;'>W</span>
-    <span class='lg' style='z-index: -3; position: absolute;'>o</span>
-    <span class='lg' style='z-index: -5; position: absolute;'>r</span>
-    <span class='lg' style='z-index: -7; position: absolute;'>l</span>
-    <span class='lg' style='z-index: -9; position: absolute;'>d</span>
-  </span>
-
+    Hello World
   </p>
 </body>
 </html>
