@@ -4,7 +4,7 @@ Websites that are intended for audiences that can read logographic scripts follo
 
 # DEMO
 
-![img]()
+![img](https://raw.githubusercontent.com/efferifick/logographic-simulator/master/example.gif)
 
 # IMPORTANT
 
