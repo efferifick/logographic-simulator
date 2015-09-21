@@ -1,18 +1,21 @@
 .lg0 {
   background-color: white;
-  width: 2ch;
+  width: 3ch;
   height: 1.5em;
   z-index: 0;
+  display: inline;
   position: absolute;
 }
 
 .lg {
-  display: inline;
   position: absolute;
-  width: 2ch;
+  width: 3ch;
+  height: 1.5em;
+  display: inline;
 }
 
 .lgParent {
-  display: inline-block;
-  width:2ch;
+  width: 3ch;
+  height: 1.5em;
+  z-index: 0;
 }

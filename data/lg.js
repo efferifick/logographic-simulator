@@ -37,12 +37,22 @@ function LGNode(oldNode) {
       zIndex -= 2;
     });
 
+    var anotherSpaceElement = document.createElement('span');
+    var anotherSpaceCharacter = document.createTextNode('ITT');
+    anotherSpaceElement.appendChild(anotherSpaceCharacter);
+    anotherSpaceElement.style.position = 'static';
+    anotherSpaceElement.style.width = '3em';
+    anotherSpaceElement.style.visibility = 'hidden';
+
+    wordElement.appendChild(anotherSpaceElement);
+
     wordElement.style.zIndex = (zIndex + 2).toString();
     newNode.appendChild(wordElement);
   });
 
   newNode.className = 'lgParent';
   parent.replaceChild(newNode, oldNode);
+  parent.style.display = "inline";
 }
 
 function LGTree(element) {
